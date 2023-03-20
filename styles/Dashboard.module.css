@@ -1,0 +1,33 @@
+.main {
+  background: linear-gradient(
+    138deg,
+    rgba(35, 25, 204, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.description {
+  display: inherit;
+  background-color: red;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.walletButton {
+  border: none;
+  background-color: orange;
+  color: black;
+  height: 40px;
+  border-radius: 20px;
+}
